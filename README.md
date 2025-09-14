@@ -23,7 +23,7 @@ Este projeto usa **Arduino/ESP32** para representar dispositivos que registram o
 📌 Fluxo:  
 **IoT Device → Mosquitto (Broker MQTT) → Node-RED → SQL Database → API → React Website**  
 
-![Arquitetura IoT](./docs/arquitetura.png)  
+![Arquitetura IoT](./img/arquitetura.png)
 
 ---
 
@@ -51,9 +51,12 @@ Este projeto usa **Arduino/ESP32** para representar dispositivos que registram o
 
 ---
 
-## 🔌 Diagrama da Arquitetura  
+## 🛠️ Hadware  
 
-![Arquitetura Completa](./docs/arquitetura_completa.png)  
+![Arduino](./img/arduino.png)
+
+![demonstracao Arduino](./img/demostracao.png)
+
 
 ---
 
@@ -137,8 +140,14 @@ Você verá os gráficos e widgets atualizando em tempo real conforme os injects
 
 ## 🤝 Equipe: Passa Pra Ela
 
-[![Gabriel Akira](https://avatars.githubusercontent.com/u/203848085?v=4)](https://github.com/Gakira06)  
+[<img src="https://avatars.githubusercontent.com/u/203848085?v=4" width="80px;" alt="Foto de Perfil do GitHub de Gabriel Akira"/><br /><sub>**Gabriel Akira**</sub>](https://github.com/Gakira06)  
 **Gabriel Akira Borges** — RM: 565191
 
-[![Gustavo Santos](https://avatars.githubusercontent.com/u/205759608?v=4)](https://github.com/gugasantos24)  
+[<img src="https://avatars.githubusercontent.com/u/205759608?v=4" width="80px;" alt="Foto de Perfil do GitHub de Gustavo Santos"/><br /><sub>**Gustavo Santos**</sub>](https://github.com/gugasantos24)  
 **Gustavo Francisco Santos** — RM: 561820
+
+[<img src="https://avatars.githubusercontent.com/u/179056037?v=4" width="80px;" alt="Foto de Perfil do GitHub de Ana Luiza"/><br /><sub>**Ana Luiza**</sub>](https://github.com/Naluaqui) 
+**Ana Luiza Tibiriçá** — RM: 562098
+
+[<img src="https://avatars.githubusercontent.com/u/160090174?v=4" width="80px;" alt="Foto de Perfil do GitHub de Mauro Carlos"/><br /><sub>**Mauro Carlos**</sub>](https://github.com/Nogrog150)
+**Mauro Carlos** — RM: 556645
