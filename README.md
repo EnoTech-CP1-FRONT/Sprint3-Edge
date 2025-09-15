@@ -95,6 +95,12 @@ Time B: Y
 
 ---
 
+## Node-red
+
+![Node-red](./img/nodeRed.png)
+
+---
+
 ## 🚀 Guia Rápido para Simular o Projeto  
 
 ### 🖥️ Simulação com Node-RED e Mosquitto  
@@ -156,8 +162,7 @@ Você verá os gráficos e widgets atualizando em tempo real conforme os injects
 ## 🌐 Links Importantes
 
 - **Link para vídeo demonstrativo (YouTube):** `adicione aqui`  
-- **Link para simulação no Node-RED:** `adicione aqui`  
-- **Link para repositório front-end React:** `adicione aqui`
+- **Link para simulação no Workiwi:** `https://wokwi.com/projects/441720257200842753`
 
 ---
 
