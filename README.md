@@ -161,7 +161,7 @@ Você verá os gráficos e widgets atualizando em tempo real conforme os injects
 
 ## 🌐 Links Importantes
 
-- **Link para vídeo demonstrativo (YouTube):** `adicione aqui`  
+- **Link para vídeo demonstrativo (YouTube):** `https://youtu.be/j3pLSDc6D4s`  
 - **Link para simulação no Workiwi:** `https://wokwi.com/projects/441720257200842753`
 
 ---
