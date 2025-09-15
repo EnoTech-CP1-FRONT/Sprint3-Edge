@@ -29,16 +29,51 @@ Este projeto usa **Arduino/ESP32** para representar dispositivos que registram o
 
 ## 🛠️ Componentes Utilizados (Hardware e Software Essenciais)  
 
-### Hardware (IoT Device)  
+### 🔩 Hardware (IoT Device)  
 - **ESP32 / Arduino Uno**: Dispositivo de entrada de eventos (ex: botão de gol).  
 - **Botões físicos**: Simulam gols de cada time.  
 - **Display OLED/LCD** (opcional): Mostra o placar localmente.  
 
-### Software  
+### 💻 Software  
 - **Mosquitto (Broker MQTT)**: Responsável pelo transporte das mensagens.  
 - **Node-RED**: Orquestra os fluxos de dados e gera dashboards.  
 - **SQL Database**: Armazena os resultados para análises posteriores.  
 - **React Website**: Interface web para visualização em tempo real.  
+
+---
+
+## ⚙️ Funcionamento do Arduino
+
+- O código do Arduino foi desenvolvido para detectar gols automaticamente e atualizar o placar.
+
+- Sensoriamento de Gols
+
+- Cada time possui um sensor ultrassônico apontado para a área do gol.
+
+- Se a bola passar e a distância medida for menor que 20 cm, o sistema considera um gol válido.
+
+- Há um tempo de espera (10 segundos) entre detecções para evitar contagem duplicada.
+
+- Placar Local
+
+- O display LCD exibe em tempo real os gols de cada time:
+
+Time A: X
+
+Time B: Y
+
+
+- **Alerta Sonoro**
+
+- Ao marcar gol, o buzzer toca uma melodia exclusiva para cada time:
+
+- Time A → Trecho da música da Liga dos Campeões.
+
+- Time B → Trecho de We Are the Champions.
+
+- **Integração com a Plataforma**
+
+- O Arduino pode enviar os eventos de gol via Serial ou MQTT, permitindo que o Node-RED registre e repasse os dados para o banco de dados e para o site React.
 
 ---
 
